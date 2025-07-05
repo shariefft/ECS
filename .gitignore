@@ -1,0 +1,27 @@
+# Python virtual environments
+venv/
+env/
+myvenv/
+source/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VS Code / PyCharm settings (optional)
+.vscode/
+.idea/
+
+# Docker files
+*.log
+
+# Byte-compiled / distribution
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
