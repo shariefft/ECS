@@ -13,7 +13,7 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_REGION: ${{ vars.AWS_REGION }}  # Or secrets.AWS_REGION if using as a secret
-
+     
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
