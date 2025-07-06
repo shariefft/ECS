@@ -24,4 +24,4 @@ jobs:
       - name: Build and push Docker image to ECR
         run: |
           docker build -t ${{ secrets.ECR_REPO }} .
-          docker push ${{ secrets.ECR_REPO }}:latest
+          docker push ${{ secrets.ECR_REPO }}:lates
